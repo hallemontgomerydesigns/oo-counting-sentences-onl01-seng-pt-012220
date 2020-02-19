@@ -8,7 +8,7 @@ class String
   end
 
   def question?
-    "What's your name?"end_with?("?")
+    "What's your name?".end_with?("?")
     self.end_with?("?")
   end
 
